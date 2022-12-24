@@ -1,0 +1,19 @@
+{
+  "name": "githubapi-trial",
+  "version": "0.0.1",
+  "description": "Trial to create GitHub REST API used source code from ChatGPT.   [ChatGPT](https://chat.openai.com/chat) にて githubAPIの使い方を出力し, 微調整して使えるようにした。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken-ty/githubapi-trial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ken-ty/githubapi-trial/issues"
+  },
+  "homepage": "https://github.com/ken-ty/githubapi-trial#readme"
+}
