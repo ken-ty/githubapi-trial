@@ -1,1 +1,7 @@
-.DS_Store
+# Desktop Services Store. mac のファイルメタ情報
+*.DS_Store
+# Xcode の ユーザー操作
+*UserInterfaceState.xcuserstate
+
+# npm パッケージ
+*node_modules/
