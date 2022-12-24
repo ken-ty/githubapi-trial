@@ -18,11 +18,12 @@
   },
   "homepage": "https://github.com/ken-ty/githubapi-trial#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-changelog-ja": "^0.0.2"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog-ja"
     }
   }
 }
