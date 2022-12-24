@@ -1,0 +1,86 @@
+@startuml
+
+title Adapter パターン (継承)
+
+'クラスとコメント
+class Main {
+}
+
+interface Print {
+    {abstract} printWeak()
+    {abstract} printStrong()
+}
+note bottom of Print
+    必要なもの
+end note
+
+class PrintBanner {
+    printWeak()
+    printStrong()
+}
+note bottom of PrintBanner
+    アダプタ
+end note
+
+class Banner {
+    showWithParen()
+    showWithAster()
+}
+note bottom of Banner
+    提供されているもの
+end note
+
+'関係
+Main --> Print: Uses >
+Print <|. PrintBanner
+PrintBanner -|> Banner
+' Aggregate -> Iterator : Create >
+' Aggregate <|.. SampleAggregate
+' Iterator <|.. SampleAggregateIterator
+' SampleAggregate -o SampleAggregateIterator
+
+@enduml
+
+@startuml
+
+title Adapter パターン (移譲)
+
+'クラスとコメント
+class Main {
+}
+
+abstract class Print {
+    {abstract} printWeak()
+    {abstract} printStrong()
+}
+note bottom of Print
+    必要なもの
+end note
+
+class PrintBanner {
+    banner
+    printWeak()
+    printStrong()
+}
+note bottom of PrintBanner
+    アダプタ
+end note
+
+class Banner {
+    showWithParen()
+    showWithAster()
+}
+note bottom of Banner
+    提供されているもの
+end note
+
+'関係
+Main --> Print: Uses >
+Print <|- PrintBanner
+PrintBanner o- Banner
+' Aggregate -> Iterator : Create >
+' Aggregate <|.. SampleAggregate
+' Iterator <|.. SampleAggregateIterator
+' SampleAggregate -o SampleAggregateIterator
+
+@enduml
