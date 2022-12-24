@@ -4,7 +4,9 @@ Trial to create GitHub REST API used source code from ChatGPT.
 
 ## 使ってみた
 
-![demo](https://gyazo.com/6303b022026a0cf0ad4d685f31c40de0)
+<img style="width:60%"
+     src="https://gyazo.com/6303b022026a0cf0ad4d685f31c40de0/raw"
+     alt="demo">
 
 ## 質問
 swift で github にログインして, リポジトリ一覧を取得するコードを書いてください.
