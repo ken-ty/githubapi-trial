@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/ken-ty/githubapi-trial/issues"
   },
-  "homepage": "https://github.com/ken-ty/githubapi-trial#readme"
+  "homepage": "https://github.com/ken-ty/githubapi-trial#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
