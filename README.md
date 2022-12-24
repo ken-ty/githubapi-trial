@@ -1,8 +1,10 @@
 # githubapi-trial
-Trial to create GitHub REST API used source code from ChatGPT.
-
-
+Trial to create GitHub REST API used source code from ChatGPT.  
 [ChatGPT](https://chat.openai.com/chat) にて githubAPIの使い方を出力し, 微調整して使えるようにした。
+
+## 使ってみた
+
+![demo](https://gyazo.com/6303b022026a0cf0ad4d685f31c40de0)
 
 ## 質問
 swift で github にログインして, リポジトリ一覧を取得するコードを書いてください.
